@@ -1,0 +1,33 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-2"
+  ],
+  /* "plugins": [
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ] */
+}
+ 13 changes: 13 additions & 0 deletions13  
+.eslintrc
+@@ -0,0 +1,13 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true
+  }
+}
+ 1 change: 1 addition & 0 deletions1  
+.gitignore
+@@ -0,0 +1 @@
+node_modules
